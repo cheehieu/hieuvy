@@ -2,8 +2,22 @@
 <html>
   <head>
     <title>HieuVy</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="/images/favicon_dark.png"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="/images/favicon_light.png"
+      media="(prefers-color-scheme: light)"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <meta
       http-equiv="refresh"
       content="30; url='https://youtu.be/XpqqjU7u5Yc'"
@@ -17,6 +31,19 @@
         text-align: center;
       }
     </style>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YLV8XK6FXQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-YLV8XK6FXQ");
+    </script>
   </head>
   <body>
     <!-- <h3>Redirecting you to our wedding website...</h3> -->
