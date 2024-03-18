@@ -39,5 +39,8 @@ i {
   display: block;
 }
 .event {
+  margin-top: 25px;
+}
+.event-date {
   margin-top: 50px;
 }
